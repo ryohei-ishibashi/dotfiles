@@ -3,6 +3,7 @@
 ### all ignore ###
 /*
 /.**
+!*/
 
 # .gitignoreは上から解釈されていくので
 # 管理対象のファイルをホワイトリストのように追記します
@@ -11,9 +12,9 @@
 !/.install.sh
 !/.homebrew_install.sh
 !/.vimrc
-!/.vim/
-!/.vscode
-!/.vscode/extensions/
+!/.vim/colors/*
+!/.vim/plugged/*
+!/.vscode/extensions/*
 
 # /.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ
 # !/.zsh/
