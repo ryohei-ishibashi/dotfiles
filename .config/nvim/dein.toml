@@ -1,0 +1,94 @@
+# インストールするプラグインを記述する(Neovim を起動した際にロードされる)
+# [[plugins]]
+# repo = 'プラグイン名を記述'
+# hook_add = '''
+    # プラグインの設定ファイルパスを指定(plugins配下に設定ファイルを配置)
+#   source ~/.config/nvim/plugins/hogehoge.vim
+# '''
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'preservim/nerdtree'
+hook_add = '''
+   source ~/.config/nvim/plugins/nerdtree.vim
+'''
+# https://github.com/preservim/nerdtree
+
+[[plugins]]
+repo = 'tpope/vim-endwise'
+# https://github.com/tpope/vim-endwise
+
+# [[plugins]]
+# repo = 'Shougo/denite.nvim'
+# hook_add = '''
+#    source ~/.config/nvim/plugins/denite.vim
+# '''
+# https://github.com/Shougo/denite.nvim
+
+[[plugins]]
+repo = 'Shougo/ddc.vim'
+hook_add = '''
+   source ~/.config/nvim/plugins/ddc.vim
+'''
+# https://github.com/Shougo/ddc.vim
+
+[[plugins]]
+repo = 'vim-denops/denops.vim'
+hook_add = '''
+   source ~/.config/nvim/plugins/denops.vim
+'''
+# https://github.com/vim-denops/denops.vim
+
+[[plugins]]
+repo = 'Shougo/ddc-around'
+# https://github.com/Shougo/ddc-around
+
+[[plugins]]
+repo = 'Shougo/ddc-matcher_head'
+# https://github.com/Shougo/ddc-matcher_head
+
+[[plugins]]
+repo = 'Shougo/ddc-sorter_rank'
+# https://github.com/Shougo/ddc-sorter_rank
+
+# [[plugins]]
+# repo  = 'phpactor/phpactor'
+# on_ft = ['php']
+# build = 'composer install'
+# hook_add = '''
+#   source ~/.config/nvim/plugins/phpactor.vim
+# '''
+# # https://github.com/phpactor/phpactor
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+on_event = 'InsertEnter'
+hook_add = '''
+  source ~/.config/nvim/plugins/deoplete.vim
+'''
+# https://github.com/Shougo/deoplete.nvim
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-airline.vim
+'''
+# https://github.com/vim-airline/vim-airline
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+# https://github.com/vim-airline/vim-airline-themes.vim
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+# https://github.com/tpope/vim-fugitive
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+# https://github.com/ryanoasis/vim-devicons
+
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+# https://github.com/sheerun/vim-polyglot

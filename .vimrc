@@ -84,9 +84,12 @@ nnoremap <silent> <Space><Space> "zyiw:let @/ = '\<' . @z . '\>'<CR>:set hlsearc
 "ハイライトを削除
 nnoremap <silent> <Esc><Esc><Esc> :<C-u>nohlsearch<CR>
 
-"x、sでヤンクしない
+"x、s、pでヤンクしない
 nnoremap x "_x
 nnoremap s "_s
+xnoremap p "_dP
+
+nnoremap * *N
 
 " 前のタブへの移動
 nnoremap gr gT
