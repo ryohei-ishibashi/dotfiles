@@ -11,6 +11,7 @@
 ### not ignore ###
 !/install.sh
 !/homebrew_install.sh
+!/.zshrc
 
 # vim
 !/.vimrc
