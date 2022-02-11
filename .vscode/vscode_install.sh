@@ -1,23 +1,32 @@
 #!/bin/sh
 
+echo "******VSCode setting started ******"
+
 SCRIPT_DIR=$(cd $(dirname $0) && pwd)
 
 # vscode設定ファイルの保存ディレクトリ
 VSCODE_SETTING_DIR=~/Library/Application\ Support/Code/User
 
 # 既存の設定ファイルがある場合は削除
-rm "$VSCODE_SETTING_DIR/settings.json"
+if [ -e "$VSCODE_SETTING_DIR/settings.json" ]; then
+    rm "$VSCODE_SETTING_DIR/settings.json"
+fi
 # シンボリックリンクを貼る
 ln -s "$SCRIPT_DIR/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
 
 # キーバインドの設定ファイル
-rm "$VSCODE_SETTING_DIR/keybindings.json"
+if [ -e "$VSCODE_SETTING_DIR/keybindings.json" ]; then
+    rm "$VSCODE_SETTING_DIR/keybindings.json"
+fi
 ln -s "$SCRIPT_DIR/keybindings.json" "${VSCODE_SETTING_DIR}/keybindings.json"
 
 # install extention
-cat extension_lists | while read line
+cat "$SCRIPT_DIR/extension_lists" | while read line
 do
  code --install-extension $line
 done
 
-code --list-extensions > extension_lists
+code --list-extensions > "$SCRIPT_DIR/extension_lists"
+
+echo "******VSCode setting completed !!******"
+
