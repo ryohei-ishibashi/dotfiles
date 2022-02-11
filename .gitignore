@@ -11,6 +11,8 @@
 ### not ignore ###
 !/install.sh
 !/homebrew_install.sh
+
+# zsh
 !/.zshrc
 
 # vim
@@ -27,7 +29,12 @@
 !/.config/nvim/dein.toml
 
 # vscode
-!/.vscode/extensions/*
+!/.vscode/extension_lists
+!/.vscode/keybindings.json
+!/.vscode/settings.json
+!/.vscode/vscode_install.sh
+
+
 
 
 # /.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ

@@ -1,0 +1,18 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Ricty Diminished",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "~/.vimrc",
+    "editor.lineHeight": 17,
+    "editor.letterSpacing": 1.1,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.ignoreLegacyWarning": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.colorTheme": "GitHub Dark",
+    "diffEditor.renderSideBySide": false,
+}
