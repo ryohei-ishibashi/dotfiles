@@ -14,6 +14,7 @@ echo "start setup..."
 
 for f in .??*; do
   [ "$f" = ".git" ] && continue
+  [ "$f" = ".gitignore" ] && continue
   [ "$f" = ".gitconfig.local.template" ] && continue
   [ "$f" = ".require_oh-my-zsh" ] && continue
   [ "$f" = ".gitmodules" ] && continue
@@ -24,7 +25,11 @@ done
 
 # change shell
 chsh -s $(which zsh)
-
+# zsh setup
+cd .zsh/
+chmod 766 zsh_setup.sh
+./zsh_setup.sh
+cd $THIS_DIR
 
 # vscode settings
 cd .vscode/

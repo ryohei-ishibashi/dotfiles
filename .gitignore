@@ -14,7 +14,7 @@
 
 # shell
 !/.zshrc
-!/.zsh
+!/.zsh/zsh_setup.sh
 !/.bashrc
 
 
