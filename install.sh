@@ -25,6 +25,14 @@ done
 # change shell
 chsh -s $(which zsh)
 
+
+# vscode settings
+cd .vscode/
+chmod 766 vscode_install.sh
+./vscode_install.sh
+cd $THIS_DIR
+
+
 cat << END
 ******************************************************************
 DOTFILES SETUP FINISHED! bye.

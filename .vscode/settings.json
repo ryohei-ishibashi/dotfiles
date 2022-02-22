@@ -15,4 +15,5 @@
     "gitlens.hovers.currentLine.over": "line",
     "workbench.colorTheme": "GitHub Dark",
     "diffEditor.renderSideBySide": false,
+    "security.workspace.trust.untrustedFiles": "open",
 }

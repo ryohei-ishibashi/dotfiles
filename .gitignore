@@ -12,8 +12,11 @@
 !/install.sh
 !/homebrew_install.sh
 
-# zsh
+# shell
 !/.zshrc
+!/.zsh
+!/.bashrc
+
 
 # vim
 !/.vimrc
