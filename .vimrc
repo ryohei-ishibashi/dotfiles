@@ -167,7 +167,7 @@ autocmd FileType smarty setlocal noexpandtab list listchars=tab:^\  shiftwidth=4
 autocmd BufNewFile,BufRead *.feature set filetype=ruby
 
 " yaml
-autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
+autocmd FileType yaml setlocal shiftwidth=4 tabstop=4
 
 " other -------------------------------------------------------------
 

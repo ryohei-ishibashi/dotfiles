@@ -13,7 +13,13 @@
     "git.confirmSync": false,
     "git.ignoreLegacyWarning": true,
     "gitlens.hovers.currentLine.over": "line",
-    "workbench.colorTheme": "GitHub Dark",
     "diffEditor.renderSideBySide": false,
     "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.lockfilesInTmp": true,
+    "files.watcherExclude": {
+        "**/storage/**": true,
+        "**/tests/**": true,
+        "**/vendor/**": true
+    },
+    "editor.renderWhitespace": "all",
 }
