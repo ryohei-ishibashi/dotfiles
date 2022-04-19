@@ -7,5 +7,12 @@ cd ~/dotfiles
 ./homebrew_install.sh
 ```
 
+### 補足
+install.shの実行により以下設定が反映される
+- vscode設定（拡張機能、シンボリックリンク、キーバインド）
+※codeコマンドが有効になっていることが前提条件
+- シェルをzshに変更
+- vimの設定反映
+
 
 
