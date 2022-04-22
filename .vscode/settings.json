@@ -22,4 +22,5 @@
         "**/vendor/**": true
     },
     "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Atom One Dark",
 }

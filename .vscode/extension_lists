@@ -1,12 +1,14 @@
+akamud.vscode-theme-onedark
 asvetliakov.vscode-neovim
 bierner.markdown-preview-github-styles
 bmewburn.vscode-intelephense-client
+cjhowe7.laravel-blade
 donjayamanne.githistory
-eamodio.gitlens
 ecmel.vscode-html-css
 formulahendry.auto-rename-tag
 GitHub.github-vscode-theme
 mhutchie.git-graph
+mikestead.dotenv
 mkaufman.HTMLHint
 mosapride.zenkaku
 ms-azuretools.vscode-docker
@@ -18,6 +20,7 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 neilbrayfield.php-docblocker
 oderwat.indent-rainbow
+onecentlin.laravel5-snippets
 rebornix.ruby
 rifi2k.format-html-in-php
 ritwickdey.LiveServer
