@@ -2,7 +2,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "files.autoSave": "afterDelay",
     "editor.fontSize": 16,
-    "editor.wordWrap": "on",
     "editor.fontFamily": "Ricty Diminished",
     "liveServer.settings.donotShowInfoMsg": true,
     "vim.vimrc.enable": true,
@@ -23,4 +22,6 @@
     },
     "editor.renderWhitespace": "all",
     "workbench.colorTheme": "Atom One Dark",
+    "editor.insertSpaces": true,
+    "diffEditor.ignoreTrimWhitespace": false,
 }

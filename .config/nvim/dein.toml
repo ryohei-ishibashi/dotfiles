@@ -27,6 +27,8 @@ repo = 'tpope/vim-endwise'
 # '''
 # https://github.com/Shougo/denite.nvim
 
+# [参考]https://github.com/Shougo/dein.vim/blob/master/README.md
+
 [[plugins]]
 repo = 'Shougo/ddc.vim'
 hook_add = '''
@@ -92,3 +94,29 @@ repo = 'ryanoasis/vim-devicons'
 [[plugins]]
 repo = 'sheerun/vim-polyglot'
 # https://github.com/sheerun/vim-polyglot
+
+[[plugins]]
+# gitの差分行に色をつけるやつ
+repo = 'airblade/vim-gitgutter'
+# https://github.com/airblade/vim-gitgutter
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-gitgutter.vim
+'''
+
+[[plugins]]
+repo = 'junegunn/fzf'
+build = './install --bin'
+merged = '0'
+# https://github.com/junegunn/fzf
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+depends = 'fzf'
+hook_add = '''
+  command! -bang -nargs=* Rg
+    \ call fzf#vim#grep(
+    \   'rg --line-number --no-heading '.shellescape(<q-args>), 0,
+    \   fzf#vim#with_preview({'options': '--exact --reverse'}, 'right:50%:wrap'))
+'''
+# https://github.com/junegunn/fzf.vim
+

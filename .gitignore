@@ -15,8 +15,6 @@
 # shell
 !/.zshrc
 !/.zsh/zsh_setup.sh
-!/.bashrc
-
 
 # vim
 !/.vimrc
@@ -36,8 +34,6 @@
 !/.vscode/keybindings.json
 !/.vscode/settings.json
 !/.vscode/vscode_install.sh
-
-
 
 
 # /.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ
