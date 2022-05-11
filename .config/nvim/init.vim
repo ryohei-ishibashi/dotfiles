@@ -26,8 +26,8 @@ if has('nvim')
   syntax enable
 
   " terminalモード関連の設定をマップするファイルの読み込み＆terminalモード関連設定
-  if filereadable(expand('~/.config/nvim/terminal_settings.vim'))
-    source ~/.config/nvim/terminal_settings.vim
+  if filereadable(expand('~/.config/nvim/settings/terminal_settings.vim'))
+    source ~/.config/nvim/settings/terminal_settings.vim
   endif
   " ターミナルモードで行番号を非表示
   autocmd TermOpen * setlocal norelativenumber
