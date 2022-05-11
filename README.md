@@ -6,6 +6,10 @@ cd ~/dotfiles
 ./install.sh
 ./homebrew_install.sh
 ```
+### font
+nerd-fonts
+
+https://github.com/ryanoasis/nerd-fonts
 
 ### 補足
 install.shの実行により以下設定が反映される
@@ -18,7 +22,6 @@ vscodeの拡張機能のlistを最新にする
 
 ```
 code --list-extensions > .vscode/extension_lists
-
 ```
 
 
