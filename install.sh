@@ -21,7 +21,7 @@ for f in .??*; do
   [ "$f" = "..DS_Store" ] && continue
 
   if [ -e "~/$f" ]; then
-    rm "~/$f"
+    rm -rf "~/$f"
   fi
 
   ln -snfv ~/dotfiles/"$f" ~/
