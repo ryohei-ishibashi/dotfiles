@@ -20,6 +20,10 @@ for f in .??*; do
   [ "$f" = ".gitmodules" ] && continue
   [ "$f" = "..DS_Store" ] && continue
 
+  if [ -e "~/$f" ]; then
+    rm "~/$f"
+  fi
+
   ln -snfv ~/dotfiles/"$f" ~/
 done
 

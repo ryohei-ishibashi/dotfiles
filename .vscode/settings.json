@@ -2,7 +2,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "files.autoSave": "afterDelay",
     "editor.fontSize": 16,
-    "editor.fontFamily": "Ricty Diminished",
     "liveServer.settings.donotShowInfoMsg": true,
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "~/.vimrc",

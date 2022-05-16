@@ -12,13 +12,13 @@ if [ -e "$VSCODE_SETTING_DIR/settings.json" ]; then
     rm "$VSCODE_SETTING_DIR/settings.json"
 fi
 # シンボリックリンクを貼る
-ln -s "$SCRIPT_DIR/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
+ln -snfv "$SCRIPT_DIR/settings.json" "${VSCODE_SETTING_DIR}/settings.json"
 
 # キーバインドの設定ファイル
 if [ -e "$VSCODE_SETTING_DIR/keybindings.json" ]; then
     rm "$VSCODE_SETTING_DIR/keybindings.json"
 fi
-ln -s "$SCRIPT_DIR/keybindings.json" "${VSCODE_SETTING_DIR}/keybindings.json"
+ln -snfv "$SCRIPT_DIR/keybindings.json" "${VSCODE_SETTING_DIR}/keybindings.json"
 
 # install extention
 cat "$SCRIPT_DIR/extension_lists" | while read line

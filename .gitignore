@@ -23,7 +23,7 @@
 
 # nvim
 !/.config/nvim/colors/**
-!/.config/nvim/plugins
+!/.config/nvim/plugins/*
 !/.config/nvim/toml
 !/.config/nvim/dein_lazy.toml
 !/.config/nvim/init.vim
