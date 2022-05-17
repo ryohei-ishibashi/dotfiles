@@ -20,7 +20,7 @@ for f in .??*; do
   [ "$f" = ".gitmodules" ] && continue
   [ "$f" = "..DS_Store" ] && continue
 
-  if [ -e ~/$"f" ]; then
+  if [ -e ~/"$f" ]; then
     rm -rf ~/"$f"
   fi
 
