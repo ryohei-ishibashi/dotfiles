@@ -1,27 +1,28 @@
 {
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Atom One Dark",
     "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+
     "editor.fontSize": 16,
     "editor.fontFamily": "Ricty Diminished",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "vim.vimrc.enable": true,
-    "vim.vimrc.path": "~/.vimrc",
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
     "editor.lineHeight": 17,
     "editor.letterSpacing": 1.1,
+
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "~/.vimrc",
+
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.ignoreLegacyWarning": true,
     "gitlens.hovers.currentLine.over": "line",
-    "diffEditor.renderSideBySide": false,
+
     "security.workspace.trust.untrustedFiles": "open",
+
     "remote.SSH.lockfilesInTmp": true,
-    "files.watcherExclude": {
-        "**/storage/**": true,
-        "**/tests/**": true,
-        "**/vendor/**": true
-    },
-    "editor.renderWhitespace": "all",
-    "workbench.colorTheme": "Atom One Dark",
-    "editor.insertSpaces": true,
-    "diffEditor.ignoreTrimWhitespace": false,
+
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": false
 }

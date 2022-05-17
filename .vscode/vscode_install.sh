@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "******VSCode setting started ******"
+echo "VSCode setting started ==========================="
 
 SCRIPT_DIR=$(cd $(dirname $0) && pwd)
 
@@ -28,5 +28,5 @@ done
 
 code --list-extensions > "$SCRIPT_DIR/extension_lists"
 
-echo "******VSCode setting completed !!******"
+echo "VSCode setting completed !! ========================"
 
