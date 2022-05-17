@@ -4,12 +4,12 @@
     "files.autoSave": "afterDelay",
     "liveServer.settings.donotShowInfoMsg": true,
 
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.fontFamily": "Ricty Diminished",
     "editor.insertSpaces": true,
     "editor.renderWhitespace": "all",
-    "editor.lineHeight": 17,
-    "editor.letterSpacing": 1.1,
+    "editor.lineHeight": 15,
+    "editor.letterSpacing": 0.8,
 
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "~/.vimrc",
