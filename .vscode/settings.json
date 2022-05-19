@@ -1,6 +1,9 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#7eabd7"
+    },
     "files.autoSave": "afterDelay",
     "liveServer.settings.donotShowInfoMsg": true,
 
@@ -13,6 +16,7 @@
 
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "~/.vimrc",
+    "vim.hlsearch": true,
 
     "git.autofetch": true,
     "git.confirmSync": false,
