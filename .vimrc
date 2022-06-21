@@ -2,6 +2,9 @@ if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
     set fileencodings=ucs-bom,utf-8,latin1 "文字コードの指定
 endif
 
+" <Leader>の設定
+let mapleader = "\<Space>"
+
 " エンコーディング
 set termencoding=utf-8            " ターミナルで使われるエンコーディング
 set encoding=utf-8                " デフォルトエンコーディング
@@ -105,6 +108,10 @@ cnoremap <C-b> <Left>
 cnoremap <C-d> <Del>
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
+
+" 行番号表示のon off
+cnoremap sn set number
+cnoremap snn set nonumber
 
 " 日付入力
 inoremap <expr> ,df strftime("%Y-%m-%dT%H:%M:%S")

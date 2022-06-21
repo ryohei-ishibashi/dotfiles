@@ -14,6 +14,8 @@
     "editor.lineHeight": 15,
     "editor.letterSpacing": 0.8,
 
+    "search.useIgnoreFiles": true,
+
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "~/.vimrc",
     "vim.hlsearch": true,
@@ -28,5 +30,17 @@
     "remote.SSH.lockfilesInTmp": true,
 
     "diffEditor.renderSideBySide": false,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
 }
