@@ -14,8 +14,6 @@
     "editor.lineHeight": 15,
     "editor.letterSpacing": 0.8,
 
-    "search.useIgnoreFiles": false,
-
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "~/.vimrc",
     "vim.hlsearch": true,
