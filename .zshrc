@@ -20,4 +20,6 @@ export LS_COLORS='di=01;36:ln=01;35:ex=01;32'
 setopt PROMPT_SUBST ; PS1='%F{green}%n@%m%f:%F{cyan}%~%f %F{red}$(__git_ps1 "(%s)")%f
 \$ '
 
+# other
+export DOCKER_CONTENT_TRUST=1
 
