@@ -30,16 +30,10 @@ done
 # change shell
 chsh -s $(which zsh)
 # zsh setup
-cd .zsh/
-chmod 766 zsh_setup.sh
-./zsh_setup.sh
-cd $THIS_DIR
+sh .zsh/zsh_setup.sh
 
 # vscode settings
-cd .vscode/
-chmod 766 vscode_install.sh
-./vscode_install.sh
-cd $THIS_DIR
+sh .vscode/vscode_install.sh
 
 
 cat << END

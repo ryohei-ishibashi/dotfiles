@@ -2,7 +2,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Atom One Dark",
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#7eabd7"
+        "editor.selectionBackground": "#7eabd7",
     },
     "files.autoSave": "afterDelay",
     "liveServer.settings.donotShowInfoMsg": true,
@@ -28,7 +28,6 @@
     "remote.SSH.lockfilesInTmp": true,
 
     "diffEditor.renderSideBySide": false,
-    "diffEditor.ignoreTrimWhitespace": false,
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -42,5 +41,9 @@
         "editor.wordBasedSuggestions": false
     },
     "dart.previewFlutterUiGuides": true,
-    "dart.previewFlutterUiGuidesCustomTracking": true
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1662202033847,
+    "redhat.telemetry.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false
 }

@@ -95,7 +95,8 @@ xnoremap p "_dP
 nnoremap * *N
 
 " 前のタブへの移動
-nnoremap gr gT
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
 
 " ビジュアルモード時vで単語移動
 vnoremap v w
