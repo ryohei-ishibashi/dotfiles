@@ -35,7 +35,7 @@
 !/.vscode/extension_lists
 !/.vscode/keybindings.json
 !/.vscode/settings.json
-!/.vscode/vscode_install.sh
+!/.vscode/vscode_setup.sh
 
 
 # /.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ

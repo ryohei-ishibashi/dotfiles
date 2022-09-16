@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 set -u
 
@@ -10,7 +10,7 @@ git submodule init
 git submodule update
 
 
-echo "start setup..."
+echo "Start setup..."
 
 for f in .??*; do
   [ "$f" = ".git" ] && continue
@@ -28,18 +28,25 @@ for f in .??*; do
 done
 
 # change shell
+echo "Start \"zsh\" setup..."
+if !(type zsh > /dev/null 2>&1); then
+  echo "Error: zsh is not found."
+  exit;
+fi
 chsh -s $(which zsh)
 # zsh setup
 sh .zsh/zsh_setup.sh
+echo "\"zsh\" setup completed."
 
 # vscode settings
-sh .vscode/vscode_install.sh
+echo "Start \"Visual Studio Code\" setup..."
+sh .vscode/vscode_setup.sh
+echo "\"Visual Studio Code\" setup completed."
 
 
 cat << END
 ==================================================================
 DOTFILES SETUP FINISHED! bye.
 ==================================================================
-
 END
 

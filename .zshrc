@@ -25,7 +25,7 @@ alias ll='ls -l'
 alias la='ls -A'
 alias la='ls -a'
 
-alias cdot='cd ~/.dotfiles'
+alias cdot='cd ~/dotfiles'
 alias cdown='cd ~/Downloads/'
 alias ..='cd ..'
 alias ...='cd ../..'
