@@ -43,7 +43,11 @@
     "dart.previewFlutterUiGuides": true,
     "dart.previewFlutterUiGuidesCustomTracking": true,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1666626467750,
+    "php-cs-fixer.lastDownload": 1688215845486,
     "redhat.telemetry.enabled": true,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.sideBar.location": "right",
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }
